@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function QuizLinkPopUp({ closePopUp, quizLink }) {
-    const baseUrl = process.env.REACT_APP_BASE_URL || 'https://QquizZ1.netlify.app/';
+    const baseUrl = process.env.REACT_APP_BASE_URL || 'https://qquizZ1.netlify.app/';
     const generatedQuizLink = quizLink || `${baseUrl}/quiz/${uuidv4()}`;
 
     const handleClosePopUp = () => {
